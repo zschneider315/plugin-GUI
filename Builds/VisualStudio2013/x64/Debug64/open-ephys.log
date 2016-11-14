@@ -1,0 +1,19 @@
+﻿Build started 11/11/2016 5:38:25 PM.
+     1>Project "C:\Users\Ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\open-ephys.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         open-ephys.vcxproj -> C:\Users\Ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\.\x64\Debug64\bin\open-ephys.exe
+       PostBuildEvent:
+         copy /Y "..\..\Resources\DLLs\VS2013-x64\*.dll" ".\x64\Debug64\bin\"
+         :VCEnd
+         ..\..\Resources\DLLs\VS2013-x64\hdf5.dll
+         ..\..\Resources\DLLs\VS2013-x64\hdf5_cpp.dll
+         ..\..\Resources\DLLs\VS2013-x64\libzmq-v120-mt-4_0_4.dll
+         ..\..\Resources\DLLs\VS2013-x64\okFrontPanel.dll
+         ..\..\Resources\DLLs\VS2013-x64\szip.dll
+         ..\..\Resources\DLLs\VS2013-x64\zlib.dll
+                 6 file(s) copied.
+     1>Done Building Project "C:\Users\Ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\open-ephys.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.45

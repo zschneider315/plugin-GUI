@@ -1,0 +1,779 @@
+﻿Build started 8/25/2016 5:35:18 PM.
+     1>Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\open-ephys.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\JuceLibraryCode /I..\..\JuceLibraryCode\modules /ZI /nologo /W4 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D NOMINMAX /D "JUCE_API=__declspec(dllexport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.4.1 /D JUCE_APP_VERSION_HEX=0x401 /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\CoreServices.cpp ..\..\Source\AccessClass.cpp ..\..\Source\Network\PracticalSocket.cpp ..\..\Source\Audio\AudioComponent.cpp ..\..\Source\Processors\PlaceholderProcessor\PlaceholderProcessorEditor.cpp ..\..\Source\Processors\PlaceholderProcessor\PlaceholderProcessor.cpp ..\..\Source\Processors\Dsp\LinearSmoothedValueAtomic.cpp ..\..\Source\Processors\Dsp\Bessel.cpp ..\..\Source\Processors\Dsp\Biquad.cpp ..\..\Source\Processors\Dsp\Butterworth.cpp ..\..\Source\Processors\Dsp\Cascade.cpp ..\..\Source\Processors\Dsp\ChebyshevI.cpp ..\..\Source\Processors\Dsp\ChebyshevII.cpp ..\..\Source\Processors\Dsp\Custom.cpp ..\..\Source\Processors\Dsp\Design.cpp ..\..\Source\Processors\Dsp\Documentation.cpp ..\..\Source\Processors\Dsp\Elliptic.cpp ..\..\Source\Processors\Dsp\Filter.cpp ..\..\Source\Processors\Dsp\Legendre.cpp ..\..\Source\Processors\Dsp\Param.cpp ..\..\Source\Processors\Dsp\PoleFilter.cpp ..\..\Source\Processors\Dsp\RBJ.cpp ..\..\Source\Processors\Dsp\RootFinder.cpp ..\..\Source\Processors\Dsp\State.cpp ..\..\Source\Processors\Serial\ofSerial.cpp ..\..\Source\Processors\ProcessorManager\ProcessorManager.cpp ..\..\Source\Processors\PluginManager\PluginClass.cpp ..\..\Source\Processors\PluginManager\PluginManager.cpp ..\..\Source\Processors\AudioNode\AudioEditor.cpp ..\..\Source\Processors\AudioNode\AudioNode.cpp ..\..\Source\Processors\Channel\Channel.cpp ..\..\Source\Processors\DataThreads\RhythmNode\RHD2000Editor.cpp ..\..\Source\Processors\DataThreads\RhythmNode\RHD2000Thread.cpp "..\..\Source\Processors\DataThreads\RhythmNode\rhythm-api\okFrontPanelDLL.cpp" "..\..\Source\Processors\DataThreads\RhythmNode\rhythm-api\rhd2000datablock.cpp" "..\..\Source\Processors\DataThreads\RhythmNode\rhythm-api\rhd2000evalboard.cpp" "..\..\Source\Processors\DataThreads\RhythmNode\rhythm-api\rhd2000registers.cpp" ..\..\Source\Processors\DataThreads\DataBuffer.cpp ..\..\Source\Processors\DataThreads\DataThread.cpp ..\..\Source\Processors\Editors\ChannelSelector.cpp ..\..\Source\Processors\Editors\ElectrodeButtons.cpp ..\..\Source\Processors\Editors\GenericEditor.cpp ..\..\Source\Processors\Editors\ImageIcon.cpp ..\..\Source\Processors\Editors\VisualizerEditor.cpp ..\..\Source\Processors\FileReader\FileSource.cpp ..\..\Source\Processors\FileReader\FileReader.cpp ..\..\Source\Processors\FileReader\FileReaderEditor.cpp ..\..\Source\Processors\GenericProcessor\GenericProcessor.cpp ..\..\Source\Processors\Merger\Merger.cpp ..\..\Source\Processors\Merger\MergerEditor.cpp ..\..\Source\Processors\MessageCenter\MessageCenter.cpp ..\..\Source\Processors\MessageCenter\MessageCenterEditor.cpp ..\..\Source\Processors\Parameter\ParameterEditor.cpp ..\..\Source\Processors\Parameter\Parameter.cpp ..\..\Source\Processors\ProcessorGraph\ProcessorGraph.cpp ..\..\Source\Processors\RecordNode\DataQueue.cpp ..\..\Source\Processors\RecordNode\RecordThread.cpp ..\..\Source\Processors\RecordNode\EngineConfigWindow.cpp ..\..\Source\Processors\RecordNode\OriginalRecording.cpp ..\..\Source\Processors\RecordNode\RecordEngine.cpp ..\..\Source\Processors\RecordNode\RecordNode.cpp ..\..\Source\Processors\SourceNode\SourceNode.cpp ..\..\Source\Processors\SourceNode\SourceNodeEditor.cpp ..\..\Source\Processors\Splitter\Splitter.cpp ..\..\Source\Processors\Splitter\SplitterEditor.cpp ..\..\Source\Processors\Visualization\Visualizer.cpp ..\..\Source\Processors\Visualization\DataWindow.cpp ..\..\Source\Processors\Visualization\SpikeObject.cpp ..\..\Source\Processors\Visualization\MatlabLikePlot.cpp ..\..\Source\UI\Utils\TiledButtonGroupManager.cpp ..\..\Source\UI\Utils\LinearButtonGroupManager.cpp ..\..\Source\UI\Utils\ButtonGroupManager.cpp ..\..\Source\UI\LookAndFeel\MaterialButtonLookAndFeel.cpp ..\..\Source\UI\LookAndFeel\MaterialSliderLookAndFeel.cpp ..\..\Source\UI\LookAndFeel\CustomLookAndFeel.cpp ..\..\Source\UI\CustomArrowButton.cpp ..\..\Source\UI\GraphViewer.cpp ..\..\Source\UI\EditorViewportButtons.cpp ..\..\Source\UI\SignalChainManager.cpp ..\..\Source\UI\EditorViewport.cpp ..\..\Source\UI\ProcessorList.cpp ..\..\Source\UI\InfoLabel.cpp ..\..\Source\UI\DataViewport.cpp ..\..\Source\UI\ControlPanel.cpp ..\..\Source\UI\UIComponent.cpp ..\..\Source\MainWindow.cpp ..\..\Source\Main.cpp ..\..\JuceLibraryCode\BinaryData.cpp ..\..\JuceLibraryCode\modules\juce_audio_basics\juce_audio_basics.cpp ..\..\JuceLibraryCode\modules\juce_audio_devices\juce_audio_devices.cpp ..\..\JuceLibraryCode\modules\juce_audio_formats\juce_audio_formats.cpp ..\..\JuceLibraryCode\modules\juce_audio_processors\juce_audio_processors.cpp ..\..\JuceLibraryCode\modules\juce_audio_utils\juce_audio_utils.cpp ..\..\JuceLibraryCode\modules\juce_core\juce_core.cpp ..\..\JuceLibraryCode\modules\juce_cryptography\juce_cryptography.cpp ..\..\JuceLibraryCode\modules\juce_data_structures\juce_data_structures.cpp ..\..\JuceLibraryCode\modules\juce_events\juce_events.cpp ..\..\JuceLibraryCode\modules\juce_graphics\juce_graphics.cpp ..\..\JuceLibraryCode\modules\juce_gui_basics\juce_gui_basics.cpp ..\..\JuceLibraryCode\modules\juce_gui_extra\juce_gui_extra.cpp ..\..\JuceLibraryCode\modules\juce_opengl\juce_opengl.cpp ..\..\JuceLibraryCode\modules\juce_video\juce_video.cpp
+         CoreServices.cpp
+         AccessClass.cpp
+         PracticalSocket.cpp
+         AudioComponent.cpp
+         PlaceholderProcessorEditor.cpp
+         PlaceholderProcessor.cpp
+         LinearSmoothedValueAtomic.cpp
+         Bessel.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(75): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(101): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(116): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(134): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(152): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(161): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(171): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(178): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(185): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(188): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(202): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(211): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(235): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(247): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(255): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(271): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(278): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(286): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(294): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(307): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(320): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(327): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(334): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.h(341): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow) (..\..\Source\Network\PracticalSocket.cpp)
+         Biquad.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(52): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : see declaration of 'strerror'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(125): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(137): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(149): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(165): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(177): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(193): warning C4244: 'return' : conversion from 'int' to 'unsigned short', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(201): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(210): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(224): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(233): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(245): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(257): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(272): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(278): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(290): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(298): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(304): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(315): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(325): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(331): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(339): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(354): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(377): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(391): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(407): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(416): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\network\practicalsocket.cpp(430): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+         Butterworth.cpp
+         Cascade.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\audio\audiocomponent.cpp(97): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         ChebyshevI.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\placeholderprocessor\placeholderprocessor.cpp(50): warning C4100: 'eventBuffer' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\placeholderprocessor\placeholderprocessor.cpp(50): warning C4100: 'continuousBuffer' : unreferenced formal parameter
+         ChebyshevII.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\CoreServices.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\AccessClass.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\CoreServices.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\AccessClass.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+         Custom.cpp
+         Design.cpp
+         Documentation.cpp
+         Elliptic.cpp
+         Filter.cpp
+         Legendre.cpp
+         Param.cpp
+         PoleFilter.cpp
+         RBJ.cpp
+         RootFinder.cpp
+         State.cpp
+         ofSerial.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\serial\ofconstants.h(44): warning C4005: 'NOMINMAX' : macro redefinition (..\..\Source\Processors\Serial\ofSerial.cpp)
+                 command-line arguments :  see previous definition of 'NOMINMAX'
+         ProcessorManager.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\dsp\param.cpp(50): warning C4702: unreachable code
+         PluginClass.cpp
+         PluginManager.cpp
+         AudioEditor.cpp
+         AudioNode.cpp
+         Channel.cpp
+         RHD2000Editor.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\serial\ofserial.cpp(53): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\serial\ofserial.cpp(72): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\serial\ofserial.cpp(88): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\serial\ofserial.cpp(458): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\serial\ofserial.cpp(482): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\serial\ofserial.cpp(622): warning C4305: 'return' : truncation from 'int' to 'bool'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audionode.cpp(235): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audionode.cpp(323): warning C4244: 'argument' : conversion from 'int' to 'const unsigned char', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audionode.cpp(419): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\ProcessorManager\ProcessorManager.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audioeditor.cpp(79): warning C4244: 'argument' : conversion from 'juce::Font::FontStyleFlags' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\PluginManager\PluginManager.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\ProcessorManager\ProcessorManager.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audioeditor.cpp(149): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audioeditor.cpp(152): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\PluginManager\PluginManager.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audioeditor.cpp(204): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audioeditor.cpp(241): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audioeditor.cpp(243): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\audionode\audioeditor.cpp(249): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(67): warning C4512: 'Rhd2000DataBlock' : assignment operator could not be generated (..\..\Source\Processors\ProcessorManager\ProcessorManager.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(35) : see declaration of 'Rhd2000DataBlock'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\DataThreads\RhythmNode\RHD2000Editor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\DataThreads\RhythmNode\RHD2000Editor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(67): warning C4512: 'Rhd2000DataBlock' : assignment operator could not be generated (..\..\Source\Processors\DataThreads\RhythmNode\RHD2000Editor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(35) : see declaration of 'Rhd2000DataBlock'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000editor.cpp(815): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000editor.cpp(1333): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000editor.cpp(1358): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000editor.cpp(1398): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000editor.cpp(1418): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         RHD2000Thread.cpp
+         okFrontPanelDLL.cpp
+         rhd2000datablock.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\okfrontpaneldll.cpp(294): warning C4100: 'arg' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\okfrontpaneldll.cpp(294): warning C4100: 'callback' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\okfrontpaneldll.cpp(296): warning C4100: 'arg' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\okfrontpaneldll.cpp(296): warning C4100: 'callback' : unreferenced formal parameter
+         rhd2000evalboard.cpp
+         rhd2000registers.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(67): warning C4512: 'Rhd2000DataBlock' : assignment operator could not be generated (..\..\Source\Processors\DataThreads\RhythmNode\rhythm-api\rhd2000datablock.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(35) : see declaration of 'Rhd2000DataBlock'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.cpp(371): warning C4018: '<' : signed/unsigned mismatch
+         DataBuffer.cpp
+         DataThread.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(67): warning C4512: 'Rhd2000DataBlock' : assignment operator could not be generated (..\..\Source\Processors\DataThreads\RhythmNode\rhythm-api\rhd2000evalboard.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(35) : see declaration of 'Rhd2000DataBlock'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000evalboard.cpp(1660): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         ChannelSelector.cpp
+         ElectrodeButtons.cpp
+         GenericEditor.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000evalboard.cpp(632): warning C4701: potentially uninitialized local variable 'bitShift' used
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000evalboard.cpp(798): warning C4701: potentially uninitialized local variable 'bitShift' used
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000evalboard.cpp(949): warning C4701: potentially uninitialized local variable 'endPoint' used
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000evalboard.cpp(949): warning C4701: potentially uninitialized local variable 'bitShift' used
+         ImageIcon.cpp
+         VisualizerEditor.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(67): warning C4512: 'Rhd2000DataBlock' : assignment operator could not be generated (..\..\Source\Processors\DataThreads\RhythmNode\RHD2000Thread.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhythm-api\rhd2000datablock.h(35) : see declaration of 'Rhd2000DataBlock'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\DataThreads\RhythmNode\RHD2000Thread.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\DataThreads\RhythmNode\RHD2000Thread.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(96): warning C4305: 'initializing' : truncation from 'int' to 'bool'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(913): warning C4804: '>' : unsafe use of type 'bool' in operation
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(942): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(1024): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(1421): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(1557): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(1582): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(1990): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(1995): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(2077): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(2237): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(2240): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(2396): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(2444): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(2445): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\electrodebuttons.cpp(58): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\electrodebuttons.cpp(40): warning C4100: 'isButtonDown' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\electrodebuttons.cpp(97): warning C4100: 'isButtonDown' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\electrodebuttons.cpp(97): warning C4100: 'isMouseOver' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\DataThreads\DataThread.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\DataThreads\DataThread.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(234): warning C4244: 'initializing' : conversion from 'float' to 'const int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(644): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(672): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(700): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(728): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(756): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(784): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(956): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(969): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(1166): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(1197): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\channelselector.cpp(1204): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\Editors\GenericEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\Editors\VisualizerEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\Editors\GenericEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\Editors\VisualizerEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\visualizereditor.cpp(59): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\visualizereditor.cpp(60): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\visualizereditor.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\visualizereditor.cpp(66): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(407): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(749): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(750): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(751): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(926): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(930): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(935): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(936): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(936): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(940): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(945): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(946): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(946): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(950): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(956): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1024): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1025): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1026): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1237): warning C4244: 'argument' : conversion from 'int' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1330): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1330): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1387): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1387): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         FileSource.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(2409): warning C4701: potentially uninitialized local variable 'bestAmplitudeIndex' used
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\datathreads\rhythmnode\rhd2000thread.cpp(2423): warning C4701: potentially uninitialized local variable 'Cseries' used
+         FileReader.cpp
+         FileReaderEditor.cpp
+         GenericProcessor.cpp
+         Merger.cpp
+         MergerEditor.cpp
+         MessageCenter.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(513): warning C4701: potentially uninitialized local variable 'numChannels' used
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1024): warning C4701: potentially uninitialized local variable 'y1' used
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1024): warning C4701: potentially uninitialized local variable 'y2' used
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1387): warning C4701: potentially uninitialized local variable 'start' used
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.cpp(1387): warning C4701: potentially uninitialized local variable 'range' used
+         MessageCenterEditor.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(99): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(135): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(146): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(170): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(278): warning C4100: 'files' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(286): warning C4100: 'y' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(286): warning C4100: 'x' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(286): warning C4100: 'files' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(294): warning C4100: 'y' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(294): warning C4100: 'x' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereadereditor.cpp(356): warning C4244: 'argument' : conversion from 'juce::Font::FontStyleFlags' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereader.cpp(248): warning C4244: '=' : conversion from 'juce::int64' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereader.cpp(310): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereader.cpp(315): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\filereader\filereader.cpp(323): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\GenericProcessor\GenericProcessor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\GenericProcessor\GenericProcessor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(36): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(536): warning C4244: 'argument' : conversion from 'int' to 'const unsigned char', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(538): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(569): warning C4244: '=' : conversion from 'int' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(590): warning C4244: 'argument' : conversion from 'int' to 'const unsigned char', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(592): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(619): warning C4244: 'argument' : conversion from 'int' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(622): warning C4244: 'argument' : conversion from 'int' to 'const unsigned char', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(637): warning C4244: 'argument' : conversion from 'size_t' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(776): warning C4244: '=' : conversion from 'int' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\genericprocessor\genericprocessor.cpp(783): warning C4244: '=' : conversion from 'int' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\merger\merger.h(55): warning C4100: 'midiMessages' : unreferenced formal parameter (..\..\Source\Processors\Merger\Merger.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\merger\merger.h(55): warning C4100: 'buffer' : unreferenced formal parameter (..\..\Source\Processors\Merger\Merger.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\merger\merger.h(55): warning C4100: 'midiMessages' : unreferenced formal parameter (..\..\Source\Processors\Merger\MergerEditor.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\merger\merger.h(55): warning C4100: 'buffer' : unreferenced formal parameter (..\..\Source\Processors\Merger\MergerEditor.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\Merger\Merger.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\Merger\Merger.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+         ParameterEditor.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\merger\merger.cpp(251): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\Merger\MergerEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\Merger\MergerEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\messagecenter\messagecenter.cpp(60): warning C4100: 'newValue' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\messagecenter\messagecenter.cpp(60): warning C4100: 'parameterIndex' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\messagecenter\messagecenter.cpp(138): warning C4244: 'argument' : conversion from 'size_t' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\messagecenter\messagecenter.cpp(157): warning C4244: 'argument' : conversion from 'size_t' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\messagecenter\messagecenter.cpp(123): warning C4100: 'buffer' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\messagecenter\messagecentereditor.cpp(56): warning C4100: 'button' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\messagecenter\messagecentereditor.cpp(62): warning C4100: 'label' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\messagecenter\messagecentereditor.cpp(93): warning C4100: 'key' : unreferenced formal parameter
+         Parameter.cpp
+         ProcessorGraph.cpp
+         DataQueue.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(295): warning C4100: 'isButtonDown' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(352): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(354): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(356): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(357): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(357): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(367): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(369): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(371): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(371): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(373): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(380): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(416): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(441): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(412): warning C4100: 'isButtonDown' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(468): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(468): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(510): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\parameter\parametereditor.cpp(510): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         RecordThread.cpp
+         EngineConfigWindow.cpp
+         OriginalRecording.cpp
+         RecordEngine.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\ProcessorGraph\ProcessorGraph.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\ProcessorGraph\ProcessorGraph.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+         RecordNode.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\RecordNode\EngineConfigWindow.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\RecordNode\RecordThread.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+         SourceNode.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\RecordNode\OriginalRecording.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(42): warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(44): warning C4309: '=' : truncation of constant value
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(70): warning C4100: 'chan' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(70): warning C4100: 'index' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(78): warning C4100: 'elec' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(78): warning C4100: 'index' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(150): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(254): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(529): warning C4389: '==' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\originalrecording.cpp(633): warning C4100: 'timestamp' : unreferenced formal parameter
+         SourceNodeEditor.cpp
+         Splitter.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\RecordNode\RecordEngine.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.cpp(39): warning C4100: 'parameter' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.cpp(43): warning C4100: 'processor' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.cpp(45): warning C4100: 'chan' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.cpp(45): warning C4100: 'index' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.cpp(47): warning C4100: 'lastBlock' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.cpp(49): warning C4100: 'lastBlock' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.cpp(94): warning C4100: 'processor' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.cpp(281): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\RecordNode\RecordNode.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\RecordNode\RecordNode.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordnode.cpp(436): warning C4244: 'initializing' : conversion from 'int' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordnode.cpp(459): warning C4244: 'argument' : conversion from 'int' to 'const unsigned char', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordnode.cpp(460): warning C4244: 'argument' : conversion from 'int' to 'const unsigned char', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordnode.cpp(460): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+         SplitterEditor.cpp
+         Visualizer.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\SourceNode\SourceNode.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\SourceNode\SourceNode.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+         DataWindow.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\sourcenode\sourcenode.cpp(370): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\sourcenode\sourcenode.cpp(387): warning C4244: 'argument' : conversion from 'int' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\sourcenode\sourcenode.cpp(403): warning C4244: 'argument' : conversion from 'int' to 'juce::uint8', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\sourcenode\sourcenode.cpp(451): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\SourceNode\SourceNodeEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\SourceNode\SourceNodeEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\splitter\splitter.h(56): warning C4100: 'midiMessages' : unreferenced formal parameter (..\..\Source\Processors\Splitter\Splitter.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\splitter\splitter.h(56): warning C4100: 'buffer' : unreferenced formal parameter (..\..\Source\Processors\Splitter\Splitter.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\visualizer.cpp(48): warning C4100: 'xml' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\visualizer.cpp(50): warning C4100: 'xml' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\Splitter\Splitter.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\Splitter\Splitter.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+         SpikeObject.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\splitter\splitter.h(56): warning C4100: 'midiMessages' : unreferenced formal parameter (..\..\Source\Processors\Splitter\SplitterEditor.cpp)
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\splitter\splitter.h(56): warning C4100: 'buffer' : unreferenced formal parameter (..\..\Source\Processors\Splitter\SplitterEditor.cpp)
+         MatlabLikePlot.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Processors\Splitter\SplitterEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Processors\Splitter\SplitterEditor.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+         TiledButtonGroupManager.cpp
+         LinearButtonGroupManager.cpp
+         ButtonGroupManager.cpp
+         MaterialButtonLookAndFeel.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(153): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(455): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(459): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(461): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(474): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(485): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(580): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(595): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(598): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(602): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(606): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(608): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(669): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(670): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(684): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(690): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(709): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(712): warning C4389: '==' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(726): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(729): warning C4389: '==' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(732): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(732): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(740): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(974): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(980): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1020): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1031): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1044): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1045): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1055): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1064): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1065): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1070): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1077): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1077): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1078): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1078): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1144): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1147): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1149): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1151): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1154): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1156): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1187): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1188): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1199): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1201): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1230): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1245): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1247): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1276): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1277): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1303): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1304): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1305): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1310): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1311): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1312): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1298): warning C4100: 'event' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1343): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1344): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1348): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1349): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1355): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1356): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\matlablikeplot.cpp(1436): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(33): warning C4100: 'bufferSize' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(109): warning C4100: 'bufferSize' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(208): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(232): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(311): warning C4244: '=' : conversion from 'double' to 'uint16_t', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(325): warning C4244: '=' : conversion from 'int' to 'uint16_t', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(318): warning C4100: 'nChannels' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(381): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(389): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(387): warning C4100: 'ch' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(398): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(399): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\visualization\spikeobject.cpp(393): warning C4100: 'ch' : unreferenced formal parameter
+         MaterialSliderLookAndFeel.cpp
+         CustomLookAndFeel.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\utils\linearbuttongroupmanager.cpp(68): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\utils\linearbuttongroupmanager.cpp(111): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\UI\Utils\TiledButtonGroupManager.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\utils\tiledbuttongroupmanager.cpp(80): warning C4100: 'e' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\utils\tiledbuttongroupmanager.cpp(85): warning C4100: 'e' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\UI\LookAndFeel\MaterialButtonLookAndFeel.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialbuttonlookandfeel.cpp(39): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialbuttonlookandfeel.cpp(58): warning C4100: 'isButtonDown' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialbuttonlookandfeel.cpp(58): warning C4100: 'isMouseOverButton' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialsliderlookandfeel.cpp(62): warning C4100: 'style' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialsliderlookandfeel.cpp(61): warning C4100: 'maxSliderPos' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialsliderlookandfeel.cpp(61): warning C4100: 'minSliderPos' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialsliderlookandfeel.cpp(61): warning C4100: 'sliderPos' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialsliderlookandfeel.cpp(103): warning C4100: 'maxSliderPos' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialsliderlookandfeel.cpp(103): warning C4100: 'minSliderPos' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\materialsliderlookandfeel.cpp(152): warning C4127: conditional expression is constant
+         CustomArrowButton.cpp
+         GraphViewer.cpp
+         EditorViewportButtons.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\UI\LookAndFeel\CustomLookAndFeel.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(154): warning C4100: 'isScrollBarVertical' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(151): warning C4100: 'scrollbar' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(202): warning C4100: 'isMouseDown' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(201): warning C4100: 'isMouseOver' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(195): warning C4100: 'scrollbar' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(331): warning C4100: 'maxSliderPos' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(330): warning C4100: 'minSliderPos' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(329): warning C4100: 'sliderPos' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(387): warning C4100: 'colour' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(447): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.cpp(445): warning C4100: 's' : unreferenced formal parameter
+         SignalChainManager.cpp
+         EditorViewport.cpp
+         ProcessorList.cpp
+         InfoLabel.cpp
+         DataViewport.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\graphviewer.cpp(213): warning C4100: 'level' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\graphviewer.cpp(365): warning C4100: 'm' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\graphviewer.cpp(373): warning C4100: 'm' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\graphviewer.cpp(381): warning C4100: 'm' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\graphviewer.cpp(434): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\graphviewer.cpp(440): warning C4100: 'path' : unreferenced formal parameter
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\signalchainmanager.h(93): warning C4512: 'SignalChainManager' : assignment operator could not be generated (..\..\Source\UI\SignalChainManager.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\ui\signalchainmanager.h(46) : see declaration of 'SignalChainManager'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\UI\SignalChainManager.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\UI\SignalChainManager.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\signalchainmanager.cpp(445): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\UI\EditorViewport.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\UI\EditorViewport.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\signalchainmanager.h(93): warning C4512: 'SignalChainManager' : assignment operator could not be generated (..\..\Source\UI\EditorViewport.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\ui\signalchainmanager.h(46) : see declaration of 'SignalChainManager'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\editorviewport.cpp(111): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\editorviewport.cpp(112): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\editorviewport.cpp(113): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\editorviewport.cpp(118): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\editorviewport.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\editorviewport.cpp(1135): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\editorviewport.cpp(1138): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         ControlPanel.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\UI\ProcessorList.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\UI\ProcessorList.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\processorlist.cpp(157): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\processorlist.cpp(159): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\processorlist.cpp(205): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\processorlist.cpp(211): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\processorlist.cpp(565): warning C4244: 'argument' : conversion from 'int' to 'juce::uint8', possible loss of data
+         UIComponent.cpp
+         MainWindow.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\signalchainmanager.cpp(250): warning C4701: potentially uninitialized local variable 'merger' used
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\UI\DataViewport.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\UI\DataViewport.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\dataviewport.cpp(149): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Main.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\editorviewport.cpp(465): warning C4701: potentially uninitialized local variable 'tooLong' used
+         BinaryData.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\UI\ControlPanel.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\UI\ControlPanel.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\processorlist.cpp(543): warning C4701: potentially uninitialized local variable 'id' used
+         juce_audio_basics.cpp
+         juce_audio_devices.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(236): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(237): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(248): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(249): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(327): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(328): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(377): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(591): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(592): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(593): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(594): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(595): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(596): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(600): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(601): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(602): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(711): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\controlpanel.cpp(1006): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\UI\UIComponent.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\UI\UIComponent.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\uicomponent.cpp(303): warning C4127: conditional expression is constant
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\uicomponent.cpp(724): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\uicomponent.cpp(725): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         juce_audio_formats.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_audio_basics\midi\juce_midibuffer.cpp(42): warning C4505: 'juce::MidiBufferHelpers::findActualEventLength' : unreferenced local function has been removed (..\..\JuceLibraryCode\modules\juce_audio_basics\juce_audio_basics.cpp)
+         juce_audio_processors.cpp
+         juce_audio_utils.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\MainWindow.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\MainWindow.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(245): warning C4512: 'EngineParameter' : assignment operator could not be generated (..\..\Source\Main.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\recordnode\recordengine.h(209) : see declaration of 'EngineParameter'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers (..\..\Source\Main.cpp)
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\main.cpp(72): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(226) : see declaration of 'freopen'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\main.cpp(73): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(226) : see declaration of 'freopen'
+         juce_core.cpp
+         juce_cryptography.cpp
+         juce_data_structures.cpp
+         juce_events.cpp
+         juce_graphics.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_core\network\juce_socket.cpp(412): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings (..\..\JuceLibraryCode\modules\juce_core\juce_core.cpp)
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_core\network\juce_socket.cpp(449): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings (..\..\JuceLibraryCode\modules\juce_core\juce_core.cpp)
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_core\network\juce_socket.cpp(553): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings (..\..\JuceLibraryCode\modules\juce_core\juce_core.cpp)
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+         juce_gui_basics.cpp
+         juce_gui_extra.cpp
+         juce_opengl.cpp
+         juce_video.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0409" /nologo /fo"Debug\resources.res" .\resources.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\bin\\open-ephys.exe" /NOLOGO setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\\open-ephys.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\bin\open-ephys.lib" /MACHINE:X86 /SAFESEH:NO Debug\resources.res
+         Debug\\CoreServices.obj
+         Debug\\AccessClass.obj
+         Debug\\PracticalSocket.obj
+         Debug\\AudioComponent.obj
+         Debug\\PlaceholderProcessorEditor.obj
+         Debug\\PlaceholderProcessor.obj
+         Debug\\LinearSmoothedValueAtomic.obj
+         Debug\\Bessel.obj
+         Debug\\Biquad.obj
+         Debug\\Butterworth.obj
+         Debug\\Cascade.obj
+         Debug\\ChebyshevI.obj
+         Debug\\ChebyshevII.obj
+         Debug\\Custom.obj
+         Debug\\Design.obj
+         Debug\\Documentation.obj
+         Debug\\Elliptic.obj
+         Debug\\Filter.obj
+         Debug\\Legendre.obj
+         Debug\\Param.obj
+         Debug\\PoleFilter.obj
+         Debug\\RBJ.obj
+         Debug\\RootFinder.obj
+         Debug\\State.obj
+         Debug\\ofSerial.obj
+         Debug\\ProcessorManager.obj
+         Debug\\PluginClass.obj
+         Debug\\PluginManager.obj
+         Debug\\AudioEditor.obj
+         Debug\\AudioNode.obj
+         Debug\\Channel.obj
+         Debug\\RHD2000Editor.obj
+         Debug\\RHD2000Thread.obj
+         Debug\\okFrontPanelDLL.obj
+         Debug\\rhd2000datablock.obj
+         Debug\\rhd2000evalboard.obj
+         Debug\\rhd2000registers.obj
+         Debug\\DataBuffer.obj
+         Debug\\DataThread.obj
+         Debug\\ChannelSelector.obj
+         Debug\\ElectrodeButtons.obj
+         Debug\\GenericEditor.obj
+         Debug\\ImageIcon.obj
+         Debug\\VisualizerEditor.obj
+         Debug\\FileSource.obj
+         Debug\\FileReader.obj
+         Debug\\FileReaderEditor.obj
+         Debug\\GenericProcessor.obj
+         Debug\\Merger.obj
+         Debug\\MergerEditor.obj
+         Debug\\MessageCenter.obj
+         Debug\\MessageCenterEditor.obj
+         Debug\\ParameterEditor.obj
+         Debug\\Parameter.obj
+         Debug\\ProcessorGraph.obj
+         Debug\\DataQueue.obj
+         Debug\\RecordThread.obj
+         Debug\\EngineConfigWindow.obj
+         Debug\\OriginalRecording.obj
+         Debug\\RecordEngine.obj
+         Debug\\RecordNode.obj
+         Debug\\SourceNode.obj
+         Debug\\SourceNodeEditor.obj
+         Debug\\Splitter.obj
+         Debug\\SplitterEditor.obj
+         Debug\\Visualizer.obj
+         Debug\\DataWindow.obj
+         Debug\\SpikeObject.obj
+         Debug\\MatlabLikePlot.obj
+         Debug\\TiledButtonGroupManager.obj
+         Debug\\LinearButtonGroupManager.obj
+         Debug\\ButtonGroupManager.obj
+         Debug\\MaterialButtonLookAndFeel.obj
+         Debug\\MaterialSliderLookAndFeel.obj
+         Debug\\CustomLookAndFeel.obj
+         Debug\\CustomArrowButton.obj
+         Debug\\GraphViewer.obj
+         Debug\\EditorViewportButtons.obj
+         Debug\\SignalChainManager.obj
+         Debug\\EditorViewport.obj
+         Debug\\ProcessorList.obj
+         Debug\\InfoLabel.obj
+         Debug\\DataViewport.obj
+         Debug\\ControlPanel.obj
+         Debug\\UIComponent.obj
+         Debug\\MainWindow.obj
+         Debug\\Main.obj
+         Debug\\BinaryData.obj
+         Debug\\juce_audio_basics.obj
+         Debug\\juce_audio_devices.obj
+         Debug\\juce_audio_formats.obj
+         Debug\\juce_audio_processors.obj
+         Debug\\juce_audio_utils.obj
+         Debug\\juce_core.obj
+         Debug\\juce_cryptography.obj
+         Debug\\juce_data_structures.obj
+         Debug\\juce_events.obj
+         Debug\\juce_graphics.obj
+         Debug\\juce_gui_basics.obj
+         Debug\\juce_gui_extra.obj
+         Debug\\juce_opengl.obj
+         Debug\\juce_video.obj
+            Creating library .\Debug\bin\open-ephys.lib and object .\Debug\bin\open-ephys.exp
+         open-ephys.vcxproj -> C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\.\Debug\bin\open-ephys.exe
+       PostBuildEvent:
+         copy /Y "..\..\Resources\DLLs\VS2013\*.dll" ".\Debug\bin\"
+         :VCEnd
+         ..\..\Resources\DLLs\VS2013\hdf5.dll
+         ..\..\Resources\DLLs\VS2013\hdf5_cpp.dll
+         ..\..\Resources\DLLs\VS2013\libzmq-v120-mt-4_0_4.dll
+         ..\..\Resources\DLLs\VS2013\okFrontPanel.dll
+         ..\..\Resources\DLLs\VS2013\szip.dll
+         ..\..\Resources\DLLs\VS2013\zlib.dll
+                 6 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\open-ephys.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:38.89

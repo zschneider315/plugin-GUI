@@ -37,6 +37,25 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpikeSorter", "SpikeSorter\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExampleProcessor", "ExampleProcessor\ExampleProcessor.vcxproj", "{767D282E-0BE5-4B35-874A-3B1ED925F06B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhaseCalculator", "PhaseCalculator\PhaseCalculator.vcxproj", "{A4769330-C082-4E14-B3A0-E7E6F518B67B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CrossingDetector", "CrossingDetector\CrossingDetector.vcxproj", "{A5CA66D7-050F-430E-AB6A-ED9FE131BC2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{920A776A-707D-4315-AB8F-A04FEAD60765}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "open-ephys", "..\x64\Debug64\bin\open-ephys.exe", "{AB02C3D4-7E6C-4CD4-B887-E6DBB4ABC54D}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\x64\Debug64\bin\open-ephys.exe
+		RemoteMachine = EPHYS-2-PC
+		StartingDirectory = C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\x64\Debug64\bin
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -150,13 +169,9 @@ Global
 		{11C301E8-35E7-48AE-978F-4AC651CEFC67}.Release|x64.ActiveCfg = Release|x64
 		{11C301E8-35E7-48AE-978F-4AC651CEFC67}.Release|x64.Build.0 = Release|x64
 		{3A753B88-4374-4456-93D8-D0FDC9DCACF3}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3A753B88-4374-4456-93D8-D0FDC9DCACF3}.Debug|Win32.Build.0 = Debug|Win32
 		{3A753B88-4374-4456-93D8-D0FDC9DCACF3}.Debug|x64.ActiveCfg = Debug|x64
-		{3A753B88-4374-4456-93D8-D0FDC9DCACF3}.Debug|x64.Build.0 = Debug|x64
 		{3A753B88-4374-4456-93D8-D0FDC9DCACF3}.Release|Win32.ActiveCfg = Release|Win32
-		{3A753B88-4374-4456-93D8-D0FDC9DCACF3}.Release|Win32.Build.0 = Release|Win32
 		{3A753B88-4374-4456-93D8-D0FDC9DCACF3}.Release|x64.ActiveCfg = Release|x64
-		{3A753B88-4374-4456-93D8-D0FDC9DCACF3}.Release|x64.Build.0 = Release|x64
 		{2A290337-FC79-4987-8488-A71F29252DB0}.Debug|Win32.ActiveCfg = Debug|Win32
 		{2A290337-FC79-4987-8488-A71F29252DB0}.Debug|Win32.Build.0 = Debug|Win32
 		{2A290337-FC79-4987-8488-A71F29252DB0}.Debug|x64.ActiveCfg = Debug|x64
@@ -177,6 +192,26 @@ Global
 		{767D282E-0BE5-4B35-874A-3B1ED925F06B}.Debug|x64.ActiveCfg = Debug|x64
 		{767D282E-0BE5-4B35-874A-3B1ED925F06B}.Release|Win32.ActiveCfg = Release|Win32
 		{767D282E-0BE5-4B35-874A-3B1ED925F06B}.Release|x64.ActiveCfg = Release|x64
+		{A4769330-C082-4E14-B3A0-E7E6F518B67B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4769330-C082-4E14-B3A0-E7E6F518B67B}.Debug|Win32.Build.0 = Debug|Win32
+		{A4769330-C082-4E14-B3A0-E7E6F518B67B}.Debug|x64.ActiveCfg = Debug|x64
+		{A4769330-C082-4E14-B3A0-E7E6F518B67B}.Debug|x64.Build.0 = Debug|x64
+		{A4769330-C082-4E14-B3A0-E7E6F518B67B}.Release|Win32.ActiveCfg = Release|Win32
+		{A4769330-C082-4E14-B3A0-E7E6F518B67B}.Release|Win32.Build.0 = Release|Win32
+		{A4769330-C082-4E14-B3A0-E7E6F518B67B}.Release|x64.ActiveCfg = Release|x64
+		{A4769330-C082-4E14-B3A0-E7E6F518B67B}.Release|x64.Build.0 = Release|x64
+		{A5CA66D7-050F-430E-AB6A-ED9FE131BC2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5CA66D7-050F-430E-AB6A-ED9FE131BC2D}.Debug|Win32.Build.0 = Debug|Win32
+		{A5CA66D7-050F-430E-AB6A-ED9FE131BC2D}.Debug|x64.ActiveCfg = Debug|x64
+		{A5CA66D7-050F-430E-AB6A-ED9FE131BC2D}.Debug|x64.Build.0 = Debug|x64
+		{A5CA66D7-050F-430E-AB6A-ED9FE131BC2D}.Release|Win32.ActiveCfg = Release|Win32
+		{A5CA66D7-050F-430E-AB6A-ED9FE131BC2D}.Release|Win32.Build.0 = Release|Win32
+		{A5CA66D7-050F-430E-AB6A-ED9FE131BC2D}.Release|x64.ActiveCfg = Release|x64
+		{A5CA66D7-050F-430E-AB6A-ED9FE131BC2D}.Release|x64.Build.0 = Release|x64
+		{AB02C3D4-7E6C-4CD4-B887-E6DBB4ABC54D}.Debug|Win32.ActiveCfg = Debug|x64
+		{AB02C3D4-7E6C-4CD4-B887-E6DBB4ABC54D}.Debug|x64.ActiveCfg = Debug|x64
+		{AB02C3D4-7E6C-4CD4-B887-E6DBB4ABC54D}.Release|Win32.ActiveCfg = Debug|x64
+		{AB02C3D4-7E6C-4CD4-B887-E6DBB4ABC54D}.Release|x64.ActiveCfg = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

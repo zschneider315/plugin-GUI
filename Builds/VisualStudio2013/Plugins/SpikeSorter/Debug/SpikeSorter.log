@@ -1,0 +1,190 @@
+﻿Build started 8/26/2016 9:51:05 AM.
+     1>Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\SpikeSorter\SpikeSorter.vcxproj" on node 8 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Source\Plugins\Headers /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D OEPLUGIN /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Source\Plugins\SpikeSorter\OpenEphysLib.cpp ..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp ..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp ..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp ..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterEditor.cpp
+         SpikeSorterEditor.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortereditor.cpp(210): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortereditor.cpp(219): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortereditor.cpp(598): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         SpikeSorterCanvas.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(680): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(737): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(740): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(742): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1004): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1077): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1130): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1131): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1136): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1137): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1146): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1147): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1228): warning C4244: 'initializing' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1256): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1265): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1279): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1280): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1281): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1294): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1295): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1334): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1335): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1336): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1348): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1352): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1353): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1511): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1512): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1515): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1519): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1521): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1524): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1525): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1526): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1527): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1540): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1545): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1550): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1555): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1560): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1565): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1570): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1575): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1580): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1603): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1604): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1607): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1614): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1618): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1631): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1632): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1634): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1635): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1651): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1770): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1771): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1787): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1807): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1822): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1889): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(1977): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2000): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2001): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2022): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2023): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2036): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2038): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2039): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2070): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2071): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2100): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2101): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2103): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2122): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2123): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2131): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2160): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2161): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2162): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2163): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2171): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2172): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2173): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortercanvas.cpp(2174): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         SpikeSorter.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(186): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(291): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(443): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(778): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(784): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(863): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(881): warning C4244: 'initializing' : conversion from 'float' to 'uint16_t', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(1229): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(1315): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(1332): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(1479): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesorter.cpp(1842): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         SpikeSortBoxes.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(147): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(157): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(217): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(264): warning C4244: 'return' : conversion from 'juce::int64' to 'double', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(282): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(282): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(300): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(401): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(500): warning C4244: 'initializing' : conversion from 'int64_t' to 'double', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(642): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(646): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(678): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(679): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(680): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(681): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(696): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(697): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(740): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(741): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(748): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(749): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(789): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(798): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(809): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(821): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(975): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(985): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1006): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1014): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1042): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1046): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1063): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1073): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1094): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1117): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1175): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1187): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1203): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1215): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1238): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1259): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1278): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1605): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1741): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1743): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1828): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1861): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1902): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1930): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(1960): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(2120): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(2121): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(2122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\spikesorter\spikesortboxes.cpp(2123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         OpenEphysLib.cpp
+         Generating Code...
+       PreLinkEvent:
+         if not exist "..\..\Debug\bin\plugins" mkdir "..\..\Debug\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SpikeSorter.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Debug\bin "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SpikeSorter.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SpikeSorter.lib" /MACHINE:X86 /DLL Debug\OpenEphysLib.obj
+         Debug\SpikeSortBoxes.obj
+         Debug\SpikeSorter.obj
+         Debug\SpikeSorterCanvas.obj
+         Debug\SpikeSorterEditor.obj
+            Creating library C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SpikeSorter.lib and object C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SpikeSorter.exp
+         SpikeSorter.vcxproj -> C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SpikeSorter.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SpikeSorter.dll" "..\..\Debug\bin\plugins\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\SpikeSorter\SpikeSorter.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.49

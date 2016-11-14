@@ -1,0 +1,70 @@
+﻿Build started 8/26/2016 9:44:42 AM.
+     1>Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\FilterNode\FilterNode.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\Source\Plugins\Headers /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D OEPLUGIN /D WIN32 /D _WINDOWS /D NDEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\Source\Plugins\FilterNode\Dsp\Bessel.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Biquad.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Butterworth.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Cascade.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\ChebyshevI.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\ChebyshevII.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Custom.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Design.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Documentation.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Elliptic.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Filter.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Legendre.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Param.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\PoleFilter.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\RBJ.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\RootFinder.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\State.cpp ..\..\..\..\Source\Plugins\FilterNode\FilterEditor.cpp ..\..\..\..\Source\Plugins\FilterNode\FilterNode.cpp ..\..\..\..\Source\Plugins\FilterNode\OpenEphysLib.cpp
+         Bessel.cpp
+         Biquad.cpp
+         Butterworth.cpp
+         Cascade.cpp
+         ChebyshevI.cpp
+         ChebyshevII.cpp
+         Custom.cpp
+         Design.cpp
+         Documentation.cpp
+         Elliptic.cpp
+         Filter.cpp
+         Legendre.cpp
+         Param.cpp
+         PoleFilter.cpp
+         RBJ.cpp
+         RootFinder.cpp
+         State.cpp
+         FilterEditor.cpp
+     1>..\..\..\..\Source\Plugins\FilterNode\FilterEditor.cpp(94): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\..\..\Source\Plugins\FilterNode\FilterEditor.cpp(95): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\..\..\Source\Plugins\FilterNode\FilterEditor.cpp(142): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\FilterNode\FilterEditor.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\FilterNode\FilterEditor.cpp(192): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         FilterNode.cpp
+     1>..\..\..\..\Source\Plugins\FilterNode\FilterNode.cpp(170): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\FilterNode\FilterNode.cpp(171): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\FilterNode\FilterNode.cpp(175): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\FilterNode\FilterNode.cpp(176): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         OpenEphysLib.cpp
+       PreLinkEvent:
+         if not exist "..\..\x64\Release64\bin\plugins" mkdir "..\..\x64\Release64\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\FilterNode.dll" /NOLOGO /LIBPATH:..\..\x64\Release64\bin "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\FilterNode.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\FilterNode.lib" /MACHINE:X64 /DLL x64\Release\Bessel.obj
+         x64\Release\Biquad.obj
+         x64\Release\Butterworth.obj
+         x64\Release\Cascade.obj
+         x64\Release\ChebyshevI.obj
+         x64\Release\ChebyshevII.obj
+         x64\Release\Custom.obj
+         x64\Release\Design.obj
+         x64\Release\Documentation.obj
+         x64\Release\Elliptic.obj
+         x64\Release\Filter.obj
+         x64\Release\Legendre.obj
+         x64\Release\Param.obj
+         x64\Release\PoleFilter.obj
+         x64\Release\RBJ.obj
+         x64\Release\RootFinder.obj
+         x64\Release\State.obj
+         x64\Release\FilterEditor.obj
+         x64\Release\FilterNode.obj
+         x64\Release\OpenEphysLib.obj
+            Creating library C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\FilterNode.lib and object C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\FilterNode.exp
+         Generating code
+         Finished generating code
+         FilterNode.vcxproj -> C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\FilterNode.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\FilterNode.dll" "..\..\x64\Release64\bin\plugins\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\FilterNode\FilterNode.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.69

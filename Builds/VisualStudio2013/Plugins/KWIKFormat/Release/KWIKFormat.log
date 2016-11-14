@@ -1,0 +1,46 @@
+﻿Build started 8/26/2016 9:53:46 AM.
+     1>Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\KWIKFormat\KWIKFormat.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"../../../../Resources/windows-libs/HDF5/include" /I..\..\..\..\JuceLibraryCode /I..\..\..\..\JuceLibraryCode\modules /I..\..\..\..\Source\Plugins\Headers /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D OEPLUGIN /D WIN32 /D _WINDOWS /D NDEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Source\Plugins\KWIKFormat\FileSource\KwikFileSource.cpp ..\..\..\..\Source\Plugins\KWIKFormat\OpenEphysLib.cpp ..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp ..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5Recording.cpp
+         KwikFileSource.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\resources\windows-libs\hdf5\include\H5Exception.h(89): warning C4251: 'H5::Exception::detail_message' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'H5::Exception'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\resources\windows-libs\hdf5\include\H5Exception.h(90): warning C4251: 'H5::Exception::func_name' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'H5::Exception'
+     1>..\..\..\..\Source\Plugins\KWIKFormat\FileSource\KwikFileSource.cpp(86): warning C4244: 'initializing' : conversion from 'hsize_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\KWIKFormat\FileSource\KwikFileSource.cpp(115): warning C4244: 'argument' : conversion from 'hsize_t' to 'const size_t', possible loss of data
+     1>..\..\..\..\Source\Plugins\KWIKFormat\FileSource\KwikFileSource.cpp(202): warning C4244: '=' : conversion from 'juce::int64' to 'int', possible loss of data
+         OpenEphysLib.cpp
+         HDF5FileFormat.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\resources\windows-libs\hdf5\include\H5Exception.h(89): warning C4251: 'H5::Exception::detail_message' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'H5::Exception'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\resources\windows-libs\hdf5\include\H5Exception.h(90): warning C4251: 'H5::Exception::func_name' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'H5::Exception'
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp(494): warning C4244: '=' : conversion from 'hsize_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp(496): warning C4244: '=' : conversion from 'hsize_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp(500): warning C4244: '=' : conversion from 'hsize_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp(504): warning C4244: '=' : conversion from 'hsize_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp(541): warning C4244: '=' : conversion from 'hsize_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp(543): warning C4244: '=' : conversion from 'hsize_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp(586): warning C4018: '>' : signed/unsigned mismatch
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp(594): warning C4244: '=' : conversion from 'hsize_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5FileFormat.cpp(596): warning C4018: '>' : signed/unsigned mismatch
+         HDF5Recording.cpp
+     1>..\..\..\..\Source\Plugins\KWIKFormat\RecordEngine\HDF5Recording.cpp(205): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       PreLinkEvent:
+         if not exist "..\..\Release\bin\plugins" mkdir "..\..\Release\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Release\KWIKFormat.dll" /NOLOGO /LIBPATH:"../../../../Resources/windows-libs/HDF5/lib/x86" /LIBPATH:..\..\Release\bin hdf5.lib hdf5_cpp.lib "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Release\KWIKFormat.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Release\KWIKFormat.lib" /MACHINE:X86 /SAFESEH /DLL Release\KwikFileSource.obj
+         Release\OpenEphysLib.obj
+         Release\HDF5FileFormat.obj
+         Release\HDF5Recording.obj
+            Creating library C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Release\KWIKFormat.lib and object C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Release\KWIKFormat.exp
+         Generating code
+         Finished generating code
+         KWIKFormat.vcxproj -> C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Release\KWIKFormat.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Release\KWIKFormat.dll" "..\..\Release\bin\plugins\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\KWIKFormat\KWIKFormat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.02

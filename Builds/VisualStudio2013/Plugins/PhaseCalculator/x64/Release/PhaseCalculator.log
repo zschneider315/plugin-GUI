@@ -1,0 +1,58 @@
+﻿Build started 9/9/2016 4:01:21 PM.
+     1>Project "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\PhaseCalculator\PhaseCalculator.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         cd fftw-dll64
+         lib /machine:x64 /def:libfftw3-3.def
+         cd ..
+         :VCEnd
+         Microsoft (R) Library Manager Version 12.00.40629.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+            Creating library libfftw3-3.lib and object libfftw3-3.exp
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\PhaseCalculator\fftw-dll64" /I..\..\..\..\Source\Plugins\Headers /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _SCL_SECURE_NO_WARNINGS /D OEPLUGIN /D WIN32 /D _WINDOWS /D NDEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\Source\Plugins\PhaseCalculator\PhaseCalculatorEditor.cpp
+         PhaseCalculatorEditor.cpp
+     1>..\..\..\..\Source\Plugins\PhaseCalculator\PhaseCalculatorEditor.cpp(40): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\..\Source\Plugins\PhaseCalculator\PhaseCalculatorEditor.cpp(63): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\..\Source\Plugins\PhaseCalculator\PhaseCalculatorEditor.cpp(305): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\PhaseCalculator\PhaseCalculatorEditor.cpp(318): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       PreLinkEvent:
+         if not exist "..\..\x64\Release64\bin\plugins" mkdir "..\..\x64\Release64\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\PhaseCalculator.dll" /NOLOGO /LIBPATH:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\PhaseCalculator\fftw-dll64" /LIBPATH:..\..\x64\Release64\bin "libfftw3-3.lib" "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\PhaseCalculator.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\PhaseCalculator.lib" /MACHINE:X64 /DLL x64\Release\burg.obj
+         x64\Release\Bessel.obj
+         x64\Release\Biquad.obj
+         x64\Release\Butterworth.obj
+         x64\Release\Cascade.obj
+         x64\Release\ChebyshevI.obj
+         x64\Release\ChebyshevII.obj
+         x64\Release\Custom.obj
+         x64\Release\Design.obj
+         x64\Release\Documentation.obj
+         x64\Release\Elliptic.obj
+         x64\Release\Filter.obj
+         x64\Release\Legendre.obj
+         x64\Release\Param.obj
+         x64\Release\PoleFilter.obj
+         x64\Release\RBJ.obj
+         x64\Release\RootFinder.obj
+         x64\Release\State.obj
+         x64\Release\PhaseCalculatorEditor.obj
+         x64\Release\PhaseCalculator.obj
+         x64\Release\OpenEphysLib.obj
+            Creating library C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\PhaseCalculator.lib and object C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\PhaseCalculator.exp
+         Generating code
+         Finished generating code
+         PhaseCalculator.vcxproj -> C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\PhaseCalculator.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\PhaseCalculator.dll" "..\..\x64\Release64\bin\plugins\";
+         copy /Y "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\PhaseCalculator\fftw-dll64\libfftw3-3.dll" "..\..\x64\Release64\bin\plugins\..\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\PhaseCalculator\PhaseCalculator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.82

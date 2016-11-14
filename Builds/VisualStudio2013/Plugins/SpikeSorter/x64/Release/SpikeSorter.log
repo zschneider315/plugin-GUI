@@ -1,0 +1,153 @@
+﻿Build started 8/26/2016 9:44:56 AM.
+     1>Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\SpikeSorter\SpikeSorter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\Source\Plugins\Headers /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D OEPLUGIN /D WIN32 /D _WINDOWS /D NDEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\Source\Plugins\SpikeSorter\OpenEphysLib.cpp ..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp ..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp ..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp ..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterEditor.cpp
+         OpenEphysLib.cpp
+         SpikeSortBoxes.cpp
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(147): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(157): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(217): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(264): warning C4244: 'return' : conversion from 'juce::int64' to 'double', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(282): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(282): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(288): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(401): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(463): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(479): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(500): warning C4244: 'initializing' : conversion from 'int64_t' to 'double', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(678): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(679): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(680): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(681): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(696): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(697): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(740): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(741): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(748): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(749): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(1103): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(1741): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(1743): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(1828): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(1861): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(1902): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(1930): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(1960): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(2120): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(2121): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(2122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSortBoxes.cpp(2123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         SpikeSorter.cpp
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp(186): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp(291): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp(443): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp(863): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp(881): warning C4244: 'initializing' : conversion from 'float' to 'uint16_t', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp(1315): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp(1332): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorter.cpp(1842): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         SpikeSorterCanvas.cpp
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(680): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(737): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(740): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(742): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1004): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1077): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1130): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1131): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1136): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1137): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1146): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1147): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1228): warning C4244: 'initializing' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1256): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1279): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1280): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1281): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1294): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1295): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1334): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1335): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1336): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1352): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1353): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1511): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1512): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1515): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1524): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1525): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1526): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1527): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1540): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1545): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1550): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1555): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1560): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1565): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1570): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1575): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1580): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1603): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1604): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1607): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1631): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1632): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1634): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1635): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1651): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1770): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1771): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1807): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(1889): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2000): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2001): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2022): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2023): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2036): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2038): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2039): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2070): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2071): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2100): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2101): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2122): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2123): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2131): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2160): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2161): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2162): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2163): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2171): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2172): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2173): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterCanvas.cpp(2174): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         SpikeSorterEditor.cpp
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterEditor.cpp(210): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterEditor.cpp(219): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\SpikeSorter\SpikeSorterEditor.cpp(598): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       PreLinkEvent:
+         if not exist "..\..\x64\Release64\bin\plugins" mkdir "..\..\x64\Release64\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\SpikeSorter.dll" /NOLOGO /LIBPATH:..\..\x64\Release64\bin "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\SpikeSorter.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\SpikeSorter.lib" /MACHINE:X64 /DLL x64\Release\OpenEphysLib.obj
+         x64\Release\SpikeSortBoxes.obj
+         x64\Release\SpikeSorter.obj
+         x64\Release\SpikeSorterCanvas.obj
+         x64\Release\SpikeSorterEditor.obj
+            Creating library C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\SpikeSorter.lib and object C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\SpikeSorter.exp
+         Generating code
+         Finished generating code
+         SpikeSorter.vcxproj -> C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\SpikeSorter.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Release\SpikeSorter.dll" "..\..\x64\Release64\bin\plugins\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\SpikeSorter\SpikeSorter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.06

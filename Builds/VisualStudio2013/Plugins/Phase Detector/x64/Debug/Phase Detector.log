@@ -1,0 +1,28 @@
+﻿Build started 9/9/2016 1:34:43 PM.
+     1>Project "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Phase Detector\Phase Detector.vcxproj" on node 8 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\..\Source\Plugins\Headers /Zi /nologo /W3 /WX- /sdl /Od /D OEPLUGIN /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\Source\Plugins\PhaseDetector\OpenEphysLib.cpp ..\..\..\..\Source\Plugins\PhaseDetector\PhaseDetector.cpp ..\..\..\..\Source\Plugins\PhaseDetector\PhaseDetectorEditor.cpp
+         PhaseDetectorEditor.cpp
+     1>..\..\..\..\Source\Plugins\PhaseDetector\PhaseDetectorEditor.cpp(223): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\Source\Plugins\PhaseDetector\PhaseDetectorEditor.cpp(236): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         PhaseDetector.cpp
+         OpenEphysLib.cpp
+         Generating Code...
+       PreLinkEvent:
+         if not exist "..\..\x64\Debug64\bin\plugins" mkdir "..\..\x64\Debug64\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\Phase Detector.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\x64\Debug64\bin "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\Phase Detector.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\Phase Detector.lib" /MACHINE:X64 /DLL x64\Debug\OpenEphysLib.obj
+         x64\Debug\PhaseDetector.obj
+         x64\Debug\PhaseDetectorEditor.obj
+            Creating library C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\Phase Detector.lib and object C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\Phase Detector.exp
+         Phase Detector.vcxproj -> C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\Phase Detector.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\Phase Detector.dll" "..\..\x64\Debug64\bin\plugins\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Phase Detector\Phase Detector.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.10

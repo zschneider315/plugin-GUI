@@ -1,0 +1,26 @@
+﻿Build started 8/26/2016 9:50:55 AM.
+     1>Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\SerialInput\SerialInput.vcxproj" on node 7 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Source\Plugins\Headers /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D OEPLUGIN /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Source\Plugins\SerialInput\OpenEphysLib.cpp ..\..\..\..\Source\Plugins\SerialInput\SerialInput.cpp ..\..\..\..\Source\Plugins\SerialInput\SerialInputEditor.cpp
+         SerialInputEditor.cpp
+         SerialInput.cpp
+         OpenEphysLib.cpp
+         Generating Code...
+       PreLinkEvent:
+         if not exist "..\..\Debug\bin\plugins" mkdir "..\..\Debug\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SerialInput.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Debug\bin "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SerialInput.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SerialInput.lib" /MACHINE:X86 /DLL Debug\OpenEphysLib.obj
+         Debug\SerialInput.obj
+         Debug\SerialInputEditor.obj
+            Creating library C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SerialInput.lib and object C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SerialInput.exp
+         SerialInput.vcxproj -> C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SerialInput.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\SerialInput.dll" "..\..\Debug\bin\plugins\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\SerialInput\SerialInput.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.21

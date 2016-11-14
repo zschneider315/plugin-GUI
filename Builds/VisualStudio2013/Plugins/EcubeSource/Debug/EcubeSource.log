@@ -1,0 +1,25 @@
+﻿Build started 8/26/2016 9:41:12 AM.
+     1>Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\EcubeSource\EcubeSource.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Source\Plugins\Headers /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D ECUBE_COMPILE /D OEPLUGIN /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D OEPLUGIN /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Source\Plugins\EcubeSource\EcubeDialogComponent.cpp ..\..\..\..\Source\Plugins\EcubeSource\EcubeEditor.cpp ..\..\..\..\Source\Plugins\EcubeSource\EcubeThread.cpp ..\..\..\..\Source\Plugins\EcubeSource\OpenEphysLib.cpp
+         OpenEphysLib.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+         EcubeThread.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\ecubesource\ecubethread.cpp(28): error C3506: there is no typelib registered for LIBID '{60C0AAC2-1E0B-4FE5-A921-AF9CEEAAA582}'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\ecubesource\ecubethread.cpp(28): fatal error C1104: fatal error importing libid: '60C0AAC2-1E0B-4FE5-A921-AF9CEEAAA582'
+         EcubeEditor.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\ui\lookandfeel\customlookandfeel.h(109): warning C4373: 'CustomLookAndFeel::drawComboBox': virtual function overrides 'juce::LookAndFeel_V2::drawComboBox', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\lookandfeel\juce_lookandfeel_v2.h(159) : see declaration of 'juce::LookAndFeel_V2::drawComboBox'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\ecubesource\ecubeeditor.h(44): warning C4584: 'EcubeEditor' : base-class 'juce::Slider::Listener' is already a base-class of 'GenericEditor'
+                 c:\users\ephys-2\downloads\plugin-gui-master\jucelibrarycode\modules\juce_gui_basics\widgets\juce_slider.h(506) : see declaration of 'juce::Slider::Listener'
+                 c:\users\ephys-2\downloads\plugin-gui-master\source\processors\editors\genericeditor.h(57) : see declaration of 'GenericEditor'
+         EcubeDialogComponent.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\EcubeSource\EcubeSource.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.59

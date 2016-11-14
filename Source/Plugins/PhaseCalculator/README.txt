@@ -1,0 +1,1 @@
+For now, I copied and pasted the DSP library from the FilterNode source. Temporary solution until we can figure out how to use a shared library.

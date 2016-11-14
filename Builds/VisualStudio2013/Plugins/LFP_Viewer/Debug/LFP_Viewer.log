@@ -1,0 +1,67 @@
+﻿Build started 8/26/2016 9:50:55 AM.
+     1>Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\LFP_Viewer\LFP_Viewer.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Source\Plugins\Headers /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D OEPLUGIN /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Source\Plugins\LfpDisplayNode\LfpDisplayCanvas.cpp ..\..\..\..\Source\Plugins\LfpDisplayNode\LfpDisplayEditor.cpp ..\..\..\..\Source\Plugins\LfpDisplayNode\LfpDisplayNode.cpp ..\..\..\..\Source\Plugins\LfpDisplayNode\OpenEphysLib.cpp
+         OpenEphysLib.cpp
+         LfpDisplayNode.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaynode.cpp(96): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaynode.cpp(161): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         LfpDisplayEditor.cpp
+         LfpDisplayCanvas.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(110): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(136): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(260): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(302): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(539): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(544): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(700): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(810): warning C4244: 'return' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(862): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(871): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(871): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(873): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(873): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(876): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1109): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1111): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1483): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1488): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1491): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1643): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1681): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1697): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1698): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1703): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1704): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1709): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1710): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1744): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1769): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1783): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1798): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1811): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1812): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1816): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1817): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(1892): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\lfpdisplaynode\lfpdisplaycanvas.cpp(2041): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       PreLinkEvent:
+         if not exist "..\..\Debug\bin\plugins" mkdir "..\..\Debug\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\LFP_Viewer.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Debug\bin "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\LFP_Viewer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\LFP_Viewer.lib" /MACHINE:X86 /DLL Debug\LfpDisplayCanvas.obj
+         Debug\LfpDisplayEditor.obj
+         Debug\LfpDisplayNode.obj
+         Debug\OpenEphysLib.obj
+            Creating library C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\LFP_Viewer.lib and object C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\LFP_Viewer.exp
+         LFP_Viewer.vcxproj -> C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\LFP_Viewer.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\LFP_Viewer.dll" "..\..\Debug\bin\plugins\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\LFP_Viewer\LFP_Viewer.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.72

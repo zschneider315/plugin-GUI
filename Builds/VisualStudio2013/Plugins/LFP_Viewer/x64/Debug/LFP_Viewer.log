@@ -1,0 +1,21 @@
+﻿Build started 9/9/2016 1:34:43 PM.
+     1>Project "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\LFP_Viewer\LFP_Viewer.vcxproj" on node 2 (Build target(s)).
+     1>PreLinkEvent:
+         if not exist "..\..\x64\Debug64\bin\plugins" mkdir "..\..\x64\Debug64\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\LFP_Viewer.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\x64\Debug64\bin "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\LFP_Viewer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\LFP_Viewer.lib" /MACHINE:X64 /DLL x64\Debug\LfpDisplayCanvas.obj
+         x64\Debug\LfpDisplayEditor.obj
+         x64\Debug\LfpDisplayNode.obj
+         x64\Debug\OpenEphysLib.obj
+            Creating library C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\LFP_Viewer.lib and object C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\LFP_Viewer.exp
+         LFP_Viewer.vcxproj -> C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\LFP_Viewer.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\x64\Debug\LFP_Viewer.dll" "..\..\x64\Debug64\bin\plugins\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Desktop\plugin-GUI-master\Builds\VisualStudio2013\Plugins\LFP_Viewer\LFP_Viewer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.39

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MAINWINDOW version="0.4.1" shouldReloadOnStartup="1">
+  <BOUNDS x="-1920" y="22" w="1920" h="1034" fullscreen="1"/>
+  <RECENTDIRECTORYNAMES>
+    <DIRECTORY name="C:\Users\ephys-2\Desktop\oep_recordings"/>
+    <DIRECTORY name="C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\x64\Release64\bin"/>
+  </RECENTDIRECTORYNAMES>
+</MAINWINDOW>

@@ -1,0 +1,69 @@
+﻿Build started 8/26/2016 9:50:55 AM.
+     1>Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\FilterNode\FilterNode.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Source\Plugins\Headers /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D OEPLUGIN /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D "JUCE_API=__declspec(dllimport)" /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.3.5 /D JUCE_APP_VERSION_HEX=0x305 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Source\Plugins\FilterNode\Dsp\Bessel.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Biquad.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Butterworth.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Cascade.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\ChebyshevI.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\ChebyshevII.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Custom.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Design.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Documentation.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Elliptic.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Filter.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Legendre.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\Param.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\PoleFilter.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\RBJ.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\RootFinder.cpp ..\..\..\..\Source\Plugins\FilterNode\Dsp\State.cpp ..\..\..\..\Source\Plugins\FilterNode\FilterEditor.cpp ..\..\..\..\Source\Plugins\FilterNode\FilterNode.cpp ..\..\..\..\Source\Plugins\FilterNode\OpenEphysLib.cpp
+         OpenEphysLib.cpp
+         FilterNode.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\filternode\filternode.cpp(170): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\filternode\filternode.cpp(171): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\filternode\filternode.cpp(175): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\filternode\filternode.cpp(176): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         FilterEditor.cpp
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\filternode\filtereditor.cpp(94): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\filternode\filtereditor.cpp(95): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\filternode\filtereditor.cpp(142): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\filternode\filtereditor.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ephys-2\downloads\plugin-gui-master\source\plugins\filternode\filtereditor.cpp(192): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         State.cpp
+         RootFinder.cpp
+         RBJ.cpp
+         PoleFilter.cpp
+         Param.cpp
+         Legendre.cpp
+         Filter.cpp
+         Elliptic.cpp
+         Documentation.cpp
+         Design.cpp
+         Custom.cpp
+         ChebyshevII.cpp
+         ChebyshevI.cpp
+         Cascade.cpp
+         Butterworth.cpp
+         Biquad.cpp
+         Bessel.cpp
+         Generating Code...
+       PreLinkEvent:
+         if not exist "..\..\Debug\bin\plugins" mkdir "..\..\Debug\bin\plugins"
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\FilterNode.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Debug\bin "open-ephys.lib" setupapi.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\FilterNode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\FilterNode.lib" /MACHINE:X86 /DLL Debug\Bessel.obj
+         Debug\Biquad.obj
+         Debug\Butterworth.obj
+         Debug\Cascade.obj
+         Debug\ChebyshevI.obj
+         Debug\ChebyshevII.obj
+         Debug\Custom.obj
+         Debug\Design.obj
+         Debug\Documentation.obj
+         Debug\Elliptic.obj
+         Debug\Filter.obj
+         Debug\Legendre.obj
+         Debug\Param.obj
+         Debug\PoleFilter.obj
+         Debug\RBJ.obj
+         Debug\RootFinder.obj
+         Debug\State.obj
+         Debug\FilterEditor.obj
+         Debug\FilterNode.obj
+         Debug\OpenEphysLib.obj
+            Creating library C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\FilterNode.lib and object C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\FilterNode.exp
+         FilterNode.vcxproj -> C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\FilterNode.dll
+       PostBuildEvent:
+         copy /Y "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\Debug\FilterNode.dll" "..\..\Debug\bin\plugins\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ephys-2\Downloads\plugin-GUI-master\Builds\VisualStudio2013\Plugins\FilterNode\FilterNode.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.61
